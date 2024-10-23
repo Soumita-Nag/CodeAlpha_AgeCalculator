@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        body{
+            height: 100vh;
+            background-image: linear-gradient(to bottom right, black,rgb(125, 123, 123));
+
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            height: 70vh;
+            width: 100vw;
+            align-items: center;
+            justify-content: center;
+        }
+        .text{
+            font-size: 5vh;
+            margin-bottom: 2vh;
+            font-family: cursive;
+            color: white;
+        }
+        .dob{
+            margin-left: 10px;
+            font-size: 3vh;
+            border: 0px solid black;
+            border-radius: 10px;
+            padding: 5px;
+            box-shadow: 5px 3px black !important;
+            font-family: cursive;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">Enter Your Date Of Birth: 
+            <input type="date" name="" class="dob" id="dob">
+        </div>
+        
+        <div class="text">Age: 
+            <input type="text" class="dob" placeholder="Age" id="age">
+        </div>
+        
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
